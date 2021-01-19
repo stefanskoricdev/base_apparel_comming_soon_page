@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+@media only screen and (min-width: 200px) and (max-width: 375px) {
+  html body {
+    margin: 0;
+    padding: 0; }
+    html body .container {
+      display: block;
+      position: relative;
+      width: 375px;
+      height: 800px; }
+      html body .container .leftside {
+        width: 100%;
+        margin: 5% 0; }
+        html body .container .leftside .logo-wrapper {
+          margin: 0 25px;
+          height: 3%;
+          width: 30%; }
+          html body .container .leftside .logo-wrapper .logo {
+            padding-left: 10px;
+            height: 100%;
+            width: 100%; }
+            html body .container .leftside .logo-wrapper .logo img {
+              width: 100%;
+              height: 100%; }
+        html body .container .leftside .message-wrapper {
+          position: absolute;
+          top: 45%;
+          width: 100%;
+          text-align: center;
+          margin: auto; }
+        html body .container .leftside .greeting-wrapper {
+          position: absolute;
+          top: 70%;
+          width: 100%;
+          text-align: center; }
+          html body .container .leftside .greeting-wrapper .greeting {
+            margin: 15px 10px; }
+        html body .container .leftside .email-wrapper {
+          position: absolute;
+          top: 83%;
+          width: 98%;
+          height: 7%; }
+      html body .container .rightside {
+        position: absolute;
+        top: 10%;
+        width: 100%; }
+        html body .container .rightside img {
+          width: 100%; } }
+@media only screen and (min-width: 376px) and (max-width: 800px) {
+  html body {
+    margin: 0;
+    padding: 0; }
+    html body .container {
+      display: block;
+      position: relative;
+      width: 375px;
+      height: 800px; }
+      html body .container .leftside {
+        width: 100%;
+        margin: 5% 0; }
+        html body .container .leftside .logo-wrapper {
+          margin: 0 25px;
+          height: 3%;
+          width: 30%; }
+          html body .container .leftside .logo-wrapper .logo {
+            padding-left: 10px;
+            height: 100%;
+            width: 100%; }
+            html body .container .leftside .logo-wrapper .logo img {
+              width: 100%;
+              height: 100%; }
+        html body .container .leftside .message-wrapper {
+          position: absolute;
+          top: 45%;
+          width: 100%;
+          text-align: center;
+          margin: auto; }
+        html body .container .leftside .greeting-wrapper {
+          position: absolute;
+          top: 70%;
+          width: 100%;
+          text-align: center; }
+          html body .container .leftside .greeting-wrapper .greeting {
+            margin: 15px 10px; }
+        html body .container .leftside .email-wrapper {
+          position: absolute;
+          top: 83%;
+          width: 98%;
+          height: 7%; }
+      html body .container .rightside {
+        position: absolute;
+        top: 6%;
+        width: 100%; }
+        html body .container .rightside img {
+          width: 100%; } }
+html {
+  font-size: 16px; }
+  html body {
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 0; }
+  html .container {
+    background-image: linear-gradient(135deg, white, #fff5f5);
+    width: 1440px;
+    height: 800px;
+    margin: 10% auto;
+    display: flex;
+    justify-content: space-around;
+    height: 100%; }
+    html .container .leftside {
+      width: 60%;
+      height: 100%;
+      margin-top: 5%;
+      margin-left: 15%; }
+      html .container .leftside .logo-wrapper .logo img {
+        height: 20%;
+        width: 18%; }
+      html .container .leftside .message-wrapper {
+        margin-top: 15%; }
+        html .container .leftside .message-wrapper .first-message h1 {
+          text-transform: uppercase;
+          letter-spacing: 10px;
+          font-weight: 300;
+          color: #ce9797;
+          font-size: 3rem;
+          margin-bottom: 0; }
+        html .container .leftside .message-wrapper .secound-message h1 {
+          text-transform: uppercase;
+          letter-spacing: 10px;
+          font-weight: 600;
+          color: rgba(0, 0, 0, 0.7);
+          font-size: 3rem;
+          margin-top: 0; }
+      html .container .leftside .greeting-wrapper {
+        width: 60%; }
+        html .container .leftside .greeting-wrapper .greeting h2 {
+          font-size: 1rem;
+          font-weight: 400;
+          color: #ce9797;
+          line-height: 1.5; }
+      html .container .leftside .email-wrapper {
+        margin-top: 5%;
+        border: 1px solid #ce9797;
+        width: 65%;
+        height: 4rem;
+        border-radius: 50px;
+        position: relative;
+    /*Gradients:
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)*/ }
+        html .container .leftside .email-wrapper input {
+          padding: 0 20px;
+          margin: 0 30px;
+          text-decoration: none;
+          border-style: none;
+          height: 100%;
+          width: 70%;
+          font-family: "Josefin Sans", sans-serif;
+          font-size: 1rem;
+          letter-spacing: 1px; }
+        html .container .leftside .email-wrapper input:focus {
+          outline: none;
+          border-style: none; }
+        html .container .leftside .email-wrapper ::placeholder {
+          color: #ce9797;
+          opacity: 1; }
+        html .container .leftside .email-wrapper .btn {
+          position: absolute;
+          right: 0px;
+          top: 0px;
+          background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+          height: 100%;
+          width: 25%;
+          border-radius: 50px;
+          border-style: none;
+          box-shadow: 0px 15px 5px rgba(206, 151, 151, 0.4);
+          cursor: pointer; }
+        html .container .leftside .email-wrapper .btn:hover {
+          background-image: linear-gradient(135deg, #ee8c8c, #f8bfbf); }
+        html .container .leftside .email-wrapper .btn:focus {
+          outline: none; }
+        html .container .leftside .email-wrapper .error {
+          display: none;
+          position: absolute;
+          right: 30%;
+          top: 30%; }
+        html .container .leftside .email-wrapper .error.active {
+          display: block; }
+        html .container .leftside .email-wrapper .not-valid {
+          position: absolute;
+          width: 50%;
+          top: 120%;
+          left: 10%;
+          color: lightgreen; }
+        html .container .leftside .email-wrapper .not-valid.active {
+          color: #f96262; }
+    html .container .rightside {
+      width: 40%; }
+      html .container .rightside img {
+        width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */

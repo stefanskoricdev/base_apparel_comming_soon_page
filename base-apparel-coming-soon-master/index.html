@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+    
+    <title>Base Apparel</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Left side:
+          HAS 4 DIVs:
+            1st div: has 2 divs: logo and title "BASE APPAREL"
+            2nd div: has 2 divs: "WE'RE" different color and "COMING SOON" black color
+            3rd div: Greeting message
+            4th div: email verification
+            -->
+           <div class="leftside">
+               <div class="logo-wrapper">
+                   <div class="logo"><img src="images/logo.svg"></div>
+               </div>
+               <div class="message-wrapper">
+                   <div class="first-message"><h1>we're</h1></div>
+                   <div class="secound-message">
+                       <h1>coming<br>soon<br></h1></div>
+               </div>
+               <div class="greeting-wrapper">
+                   <div class="greeting">
+                       <h2>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</h2>
+                   </div>
+               </div>
+               <div class="email-wrapper">
+                   <input type="email" id="email" placeholder="Email Address" name="">
+                   <button class="btn"><img src="images/icon-arrow.svg"></button>
+                   <img src="images/icon-error.svg" alt="error" class="error">
+                   <span class="not-valid"></span>
+               </div>
+            
+        </div>
+        <div class="rightside">
+            <picture class="rightside-pic">
+             <source srcset="images/hero-mobile.jpg" media="(max-width: 375px)"/>
+             <img src="images/hero-desktop.jpg">   
+            </picture>
+            
+        </div>
+        
+        
+    </div>
+</body>
+</html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">
